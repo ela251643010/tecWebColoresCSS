@@ -1,0 +1,55 @@
+div{
+    width: 250px;
+    height: 205px;
+    background-color: rgba(164, 97, 226, 0.529);
+}
+p{
+    color: orange;
+}
+.caja  {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(234, 95, 95);
+}
+.otracaja{
+    width: 150px;
+    height: 150px;
+    background-color: rgba(0,0,255,0.32);
+
+}
+.una_caja_mas{
+    width: 150px;
+    height: 150px;
+    background-color: #87d32c   ;
+}
+.capibara{
+    width: 150px;
+    height: 150px;
+    background-color: hsl(0,100%, 50%);
+}
+*{
+    color: #172865;
+    font-weight: 600;
+}
+#soy_unico{
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+}
+a[title]{
+    color: red;
+}
+button:hover{
+    background-color: yellow;
+    color: green;
+}
+input:disabled{
+    background-color: red;
+}
+p::first-line{
+    color: green        ;
+}
+p::first-letter{
+    color: red;
+    font-size: 45px;
+}
