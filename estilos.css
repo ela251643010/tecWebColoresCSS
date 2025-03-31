@@ -1,8 +1,8 @@
-div{
+ div{
     width: 250px;
     height: 205px;
     background-color: rgba(164, 97, 226, 0.529);
-}
+} 
 p{
     color: orange;
 }
@@ -30,7 +30,7 @@ p{
 *{
     color: #172865;
     font-weight: 600;
-}
+} 
 #soy_unico{
     width: 250px;
     height: 250px;
@@ -46,15 +46,19 @@ button:hover{
 input:disabled{
     background-color: red;
 }
-p::first-line{
+ p::first-line{
     color: green        ;
 }
 p::first-letter{
     color: red;
     font-size: 45px;
-}
+} 
 .capibara1, .capibara2, .capibara3{
     width: 100px;
     height: 100px;
     background-color: rgb(188, 106, 188);
 }
+/* .padre p{
+    color: red;
+}
+selecciono los hijos de padre que son p */
