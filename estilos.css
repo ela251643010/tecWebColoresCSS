@@ -1,4 +1,4 @@
- div{
+ /*div{
     width: 250px;
     height: 205px;
     background-color: rgba(164, 97, 226, 0.529);
@@ -58,7 +58,63 @@ p::first-letter{
     height: 100px;
     background-color: rgb(188, 106, 188);
 }
-/* .padre p{
+ .padre p{
     color: red;
 }
-selecciono los hijos de padre que son p */
+
+selecciono los hijos de padre que son p 
+p#unico.foo.bar.baz{
+    color: green;
+}
+p#unico.foo{
+    color: red !important;
+}
+.main{
+    color: black;
+    border: 2px solid #ccc;
+    padding:1em;
+}
+.special{
+    color: red;
+    font-weight: bold;
+}
+.rectangulo{
+    width: 450px;
+    height: 250px;
+    background-color: darkgoldenrod;
+}
+.caja{
+    width: 50%;
+    height: 250px;
+    background-color:#87d32c;
+}
+.caja_interior{
+    width: 50%;
+    height: 50%;
+    background-color: violet;
+}
+.caja_interior p{
+    font-size: 2rem;
+}
+div{
+    width: 50vw;
+    height: 50vh;
+    background-color: rgb(100, 211, 211);
+}*/
+body{
+    margin: 0;
+}
+div{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    /*padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;*/
+    padding: 25px;
+    border:12px solid yellow;
+    border-bottom: 12px dashed yellow;
+    margin: 25px;
+
+}
